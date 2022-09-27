@@ -7,6 +7,6 @@ public class DemoRestController
 @GetMapping("/hello")
 public String hello() 
 {
-return "HI D3V User, have a nice day.";
+return "HI D3V, have a nice day.";
 }
 }
