@@ -8,5 +8,20 @@ public class DemoRestController
 public String hello() 
 {
 return "HI D3V, this is a presentation, have a nice day.";
+  
+  // Local address
+    //InetAddress.getLocalHost().getHostAddress();
+   // InetAddress.getLocalHost().getHostName();
+  System.out.println("My hostname is : " + inetAddress.getHostName());
+        System.out.println("My IP address is  : " + inetAddress);
+    
+    // Remote address
+   // InetAddress.getLoopbackAddress().getHostAddress();
+  //  InetAddress.getLoopbackAddress().getHostName();
+  
+ // System.out.println("My IP address is  : " + inetAddress);
+    
+  
+  
 }
 }
