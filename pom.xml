@@ -40,6 +40,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	</dependencies>
+	
 	
  <distributionManagement>
     <snapshotRepository>
@@ -47,6 +49,8 @@
       <url>artifactregistry://us-central1-maven.pkg.dev/d3v-sandbox/spring-project</url>
     </snapshotRepository>
   </distributionManagement>
+	
+	
  <repositories>
     <repository>
       <id>artifact-registry</id>
