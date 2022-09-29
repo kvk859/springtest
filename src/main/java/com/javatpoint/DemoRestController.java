@@ -8,19 +8,20 @@ import java.net.UnknownHostException;
 public class DemoRestController 
 {
 @GetMapping("/D3V")
+	//public ModelAndView index(HttpServletRequest request) {
 public String hello() 
 {
-
-	
 	InetAddress ip;
-	String hostname;
+	
 	ip = InetAddress.getLocalHost();
             hostname = ip.getHostName();
-            System.out.println("Your current IP address : " + ip);
-            System.out.println("Your current Hostname : " + hostname);
+            //System.out.println("Your current IP address : " + ip);
+          //  System.out.println("Your current Hostname : " + hostname);
   
  
-    return "HI D3V, this is a presentation, have a nice day.";
+	
+	 
+    return "HI D3V, this is a presentation, have a nice day. ";
   
   
 } 
