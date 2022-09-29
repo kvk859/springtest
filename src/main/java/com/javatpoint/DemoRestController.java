@@ -26,7 +26,7 @@ public class DemoRestController
 //} 
   private RequestService requestService;
 	
-	@RequestMapping("/D3V")
+	// @RequestMapping("/D3V")
 	public ModelAndView index(HttpServletRequest request) {
 		ModelAndView model = new ModelAndView("index");
 		String clientIp = requestService.getClientIp(request);
